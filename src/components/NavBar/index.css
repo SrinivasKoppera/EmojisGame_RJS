@@ -1,0 +1,28 @@
+/* Write your code here. */
+.nav-bar {
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  margin-left: 3rem;
+}
+.game-name {
+  color: #ffffff;
+}
+.score-container {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: 3rem;
+}
+.score {
+  margin-right: 1.5rem;
+}

@@ -1,0 +1,36 @@
+/* Write your code here. */
+
+@media (min-width: 768px) {
+  .emoji-list {
+    background-color: #aeaeee;
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 1px ridge #ffffff;
+    border-radius: 10px;
+  }
+  .emoji-img {
+    width: 4.5rem;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  .emoji-list {
+    background-color: #aeaeee;
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px ridge #ffffff;
+    border-radius: 10px;
+  }
+  .emoji-img {
+    width: 4rem;
+  }
+  .emoji-btn {
+    background-color: transparent;
+    border: none;
+  }
+}

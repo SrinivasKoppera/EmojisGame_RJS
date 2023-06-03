@@ -1,0 +1,98 @@
+/* Write your code here. */
+@media (max-width: 768px) {
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .win-and-loss-container {
+    background-color: #aeaeee;
+    padding: 2rem;
+    text-align: center;
+    border: 1px ridge #ffffff;
+    border-radius: 10px;
+  }
+  .result-img {
+    width: 35%;
+  }
+  .result-status {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+  }
+  .score-status {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .got-score {
+    color: #6a59ff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .play-again-btn {
+    background-color: #ffce27;
+    height: 46px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 126px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  .win-and-loss-container {
+    background-color: #aeaeee;
+    padding: 2rem;
+    text-align: center;
+    border: 1px ridge #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .result-img {
+    width: 90%;
+  }
+  .text-container {
+    order: -1;
+    margin: 2rem;
+  }
+  .result-status {
+    color: #ffffff;
+    font-size: 46px;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+  }
+  .score-status {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .got-score {
+    color: #6a59ff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .play-again-btn {
+    background-color: #ffce27;
+    height: 46px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 126px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 1rem;
+  }
+}
